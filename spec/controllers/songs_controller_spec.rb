@@ -21,6 +21,7 @@ RSpec.describe SongsController, type: :controller do
   end
 
   describe "basic listing, viewing and editing" do
+
     let(:song) { Song.create!(valid_attributes) }
 
     it "lists all songs" do

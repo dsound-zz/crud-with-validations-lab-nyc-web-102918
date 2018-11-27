@@ -1,0 +1,9 @@
+<h2><% @songs.each do |song| %></h2>
+by <strong><%= @song %></strong>
+<p><%= song.title %></p>
+<p><%= song.release_year %></p>
+<p><%= song.released %></p>
+<p><%= song.genre %></p>
+<p><%= song.artist_name %></p>
+
+<% end %>
